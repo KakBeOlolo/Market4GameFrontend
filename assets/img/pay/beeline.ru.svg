@@ -1,0 +1,17 @@
+<svg width="454" height="450" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="452" width="456" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000" ry="222.999995" rx="223.000015" id="svg_8" cy="225.45312" cx="225.500008" stroke-opacity="null" stroke-width="1.5" fill="#ff7f00"/>
+  <g id="svg_1" fill="#000000" transform="translate(0,563) scale(0.10000000149011612,-0.10000000149011612) ">
+   <path fill="#000000" id="svg_2" d="m2000,5609c-502,-55 -950,-278 -1325,-658l-80,-81l1658,0c1616,0 1657,0 1648,19c-6,10 -45,51 -88,91c-352,330 -784,542 -1253,615c-126,19 -441,27 -560,14z"/>
+   <path fill="#000000" id="svg_3" d="m95,3948c-22,-68 -50,-219 -65,-356c-24,-215 0,-549 53,-757l13,-50l2164,0l2165,0l17,75c73,310 74,689 4,995l-23,100l-2162,3c-1724,2 -2162,0 -2166,-10z"/>
+   <path fill="#000000" id="svg_4" d="m720,1757c254,-247 512,-409 823,-516c780,-269 1715,-39 2312,568l69,71l-1664,0l-1665,-1l125,-122z"/>
+  </g>
+  <polyline stroke-linecap="round" id="svg_5" points="142.5,215.453125 142.5,216.453125 " stroke-width="1.5" stroke="#000" fill="none"/>
+ </g>
+</svg>
