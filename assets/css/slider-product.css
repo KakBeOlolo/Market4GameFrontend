@@ -201,13 +201,13 @@ button.slick-prev.slick-arrow::before {
 /* Стили для слайдера "Похожие товары" */
 .recom-slider-body {
     max-width: 100%;
-    background: #FFFFFF;
     border-radius: 12px;
     padding: 5px;
-    border: 1px solid #F6F6F6;
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05), 0 5px 12px rgba(0, 0, 0, 0.125);
     margin-bottom: 10px;
     margin-top: 10px;
+    background: var(--color-bg-box);
+    border: 1px solid var(--color-box-border);
+    box-shadow: var(--box-shadow-externa);
 }
 
 .recom-slider-container {
@@ -223,15 +223,15 @@ button.slick-prev.slick-arrow::before {
     background-position: right center;
     background-repeat: no-repeat;
     text-decoration: none;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(0, 0, 0, 0.015), inset 0 2px 8px rgba(0, 0, 0, 0.075), 0 0px rgb(0 9 37 / 37%);
-    background: rgba(94, 94, 101, 0.05);
+    box-shadow: var(--box-shadow-interna);
+    background-color: var(--color-bg-box-secondary);
     border-color: transparent;
 }
 .recom-slider-icon {
     border-radius: 6px;
-    height: 49px;
+    height: 39px;
     justify-content: center;
-    width: 49px;
+    width: 39px;
     display: flex;
     align-items: center;
     margin-right: 8px;
