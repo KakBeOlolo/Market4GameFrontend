@@ -658,9 +658,15 @@
 	</header>
 
 	<fieldset class="breadcrumb">
-		<ul id="breadcrumbs-four">
-			<li><a href="">Главная</a></li>
-			<li><a href="" class="current">Результаты поиска</a></li>
+		<ul id="breadcrumbs-four" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item"
+					href="./index.html"><span itemprop="name">Главная</span></a>
+				<meta itemprop="position" content="1" />
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item"
+					href="./search.html" class="current"><span itemprop="name">Результаты поиска</span></a>
+				<meta itemprop="position" content="2" />
+			</li>
 		</ul>
 	</fieldset>
 
@@ -1257,9 +1263,15 @@
 
 
 <fieldset class="breadcrumb-footer">
-	<ul id="breadcrumbs-four">
-		<li><a href="">Главная</a></li>
-		<li><a href="" class="current">Результаты поиска</a></li>
+	<ul id="breadcrumbs-four" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item"
+				href="./index.html"><span itemprop="name">Главная</span></a>
+			<meta itemprop="position" content="1" />
+		</li>
+		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item"
+				href="./search.html" class="current"><span itemprop="name">Результаты поиска</span></a>
+			<meta itemprop="position" content="2" />
+		</li>
 	</ul>
 </fieldset>
 <!--- футер   -->

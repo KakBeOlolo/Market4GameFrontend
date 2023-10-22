@@ -239,7 +239,9 @@ label.product-info-rules {
     color: black;
     line-height: 0px;
 }
-
+span.price {
+  margin-right: 5px;
+}
 .product-info-price {
     font-weight: 700;
     margin-bottom: 5px;
