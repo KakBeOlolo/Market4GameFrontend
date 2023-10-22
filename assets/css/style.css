@@ -1503,9 +1503,9 @@ section.goods-list {
 
 .product-title {
   max-width: 100%;
-  background: #FFFFFF;
-  border: 1px solid #F6F6F6;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05), 0 5px 12px rgba(0, 0, 0, 0.125);
+  background: var(--color-bg-box);
+  border: 1px solid var(--color-box-border);
+  box-shadow: var(--box-shadow-externa);
   width: -webkit-fill-available;
   font-weight: 700;
   font-size: 29px;
@@ -1514,7 +1514,7 @@ section.goods-list {
   color: #000000;
   padding: 5px;
   border-radius: 7px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .product-head {
@@ -1565,9 +1565,9 @@ section.goods-list {
   display: flex;
   max-height: 100%;
   background: var(--color-bg-box);
-    border: 1px solid var(--color-box-border);
-    box-shadow: var(--box-shadow-externa);
-    color: #000000;
+  border: 1px solid var(--color-box-border);
+  box-shadow: var(--box-shadow-externa);
+  color: #000000;
   padding: 0 5px 0 5px;
   border-radius: 8px;
   text-align: left;
@@ -1926,7 +1926,7 @@ label.filtr-label {
   }
 
   select[name="form-sort"] {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   span.product-filt-title,
