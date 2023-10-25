@@ -1,3 +1,19 @@
+.catalog-title {
+  max-width: 100%;
+  background: var(--color-bg-box);
+  border: 1px solid var(--color-box-border);
+  box-shadow: var(--box-shadow-externa);
+  width: -webkit-fill-available;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  padding: 5px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
 /* вкладки с цифрами */
 .catalog-tabs {
   display: flex;
