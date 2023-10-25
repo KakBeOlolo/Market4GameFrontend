@@ -1,0 +1,251 @@
+/* вкладки с цифрами */
+.catalog-tabs {
+  display: flex;
+  width: calc(100% - 10px);
+  max-width: 100%;
+  min-height: auto;
+  float: left;
+  margin-top: 10px;
+  list-style: none;
+  background: var(--color-bg-box);
+  border-radius: 12px;
+  padding: 5px;
+  border: 1px solid #F6F6F6;
+  box-shadow: var(--box-shadow-externa);
+  flex-wrap: wrap;
+}
+
+
+.catalog-tabs:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.catalog-tabs input[type=radio] {
+  display: none;
+}
+
+.catalog-tabs label p {
+  padding: 5px;
+  margin-right: 0;
+}
+
+
+.catalog-tabs label {
+  display: block;
+  font-weight: 700;
+  float: left;
+  text-decoration: none;
+  line-height: 2;
+  font-size: 17px;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  color: rgb(239, 248, 253);
+  background-color: rgb(91, 167, 225);
+  border: 1px solid rgb(74, 135, 182);
+  border-top-color: rgb(91, 167, 225);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15), 0 3px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15), 0 3px 8px rgba(0, 0, 0, 0.1);
+  -khtml-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15), 0 3px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15), 0 3px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 75%);
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 75%);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 75%);
+  padding: 2px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog-tabs label span {
+  display: none;
+}
+
+
+
+.tab-content-catalog {
+  display: none;
+  min-width: 320px;
+  min-height: auto;
+  float: left;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-transform: none;
+  background-position: right center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  box-shadow: var(--box-shadow-interna);
+  background: var(--color-bg-box-secondary);
+  border: 1px solid #0000004d;
+}
+
+.catalog-tabs [id^="tab"]:checked+label {
+  background-repeat: no-repeat;
+  text-decoration: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(0, 0, 0, 0.015), inset 0 2px 8px rgba(0, 0, 0, 0.075), 0 0px rgb(0 9 37 / 37%);
+  background-color: rgb(232 255 254);
+  border-color: #5ba7e1;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#tab-a-product:checked~#tab-content-a,
+#tab-b-product:checked~#tab-content-b,
+#tab-c-product:checked~#tab-content-c,
+#tab-d-product:checked~#tab-content-d,
+#tab-e-product:checked~#tab-content-e,
+#tab-f-product:checked~#tab-content-f,
+#tab-g-product:checked~#tab-content-g,
+#tab-h-product:checked~#tab-content-h,
+#tab-i-product:checked~#tab-content-i,
+#tab-j-product:checked~#tab-content-j,
+#tab-k-product:checked~#tab-content-k,
+#tab-l-product:checked~#tab-content-l,
+#tab-m-product:checked~#tab-content-m,
+#tab-n-product:checked~#tab-content-n,
+#tab-o-product:checked~#tab-content-o,
+#tab-p-product:checked~#tab-content-p,
+#tab-q-product:checked~#tab-content-q,
+#tab-r-product:checked~#tab-content-r,
+#tab-s-product:checked~#tab-content-s,
+#tab-t-product:checked~#tab-content-t,
+#tab-u-product:checked~#tab-content-u,
+#tab-v-product:checked~#tab-content-v,
+#tab-w-product:checked~#tab-content-w,
+#tab-x-product:checked~#tab-content-x,
+#tab-y-product:checked~#tab-content-y,
+#tab-z-product:checked~#tab-content-z,
+#tab-1-product:checked~#tab-content-1,
+#tab-2-product:checked~#tab-content-2,
+#tab-3-product:checked~#tab-content-3,
+#tab-4-product:checked~#tab-content-4,
+#tab-5-product:checked~#tab-content-5,
+#tab-6-product:checked~#tab-content-6,
+#tab-8-product:checked~#tab-content-8,
+#tab-9-product:checked~#tab-content-9 {
+  display: block;
+}
+
+
+@media (min-width: 768px) {
+  .catalog-tabs p {
+    margin-right: 10px;
+  }
+
+  .catalog-tabs {
+    max-width: 100%;
+  }
+}
+
+
+
+/* конец вкладок с цифрами */
+
+/* каталог отдельная страница */
+
+
+.all-categores-page {
+  display: flex;
+  width: calc(100% - 43px);
+  font-size: 25px;
+  margin: 7px 0px 10px 13px;
+  background-color: rgb(230 253 252 / 80%);
+  border-radius: 12px;
+  border: 1px solid rgb(0 0 0 / 2%);
+  padding: 9px;
+}
+
+.all-categores-page span {
+  color: #000;
+}
+
+span.catalog-total {
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #858584;
+}
+
+.catalog-page-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width:525px) {
+  .catalog-page-body-punkt {
+    width: calc(50% - 30px) !important;
+  }
+}
+
+.catalog-page-body-punkt {
+  font-weight: 700;
+  margin: 5px;
+  padding: 0 10px;
+  width: calc(25% - 30px);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  flex-wrap: wrap;
+}
+
+.catalog-page-body-punkt a {
+  min-width: 100%;
+  height: auto;
+  display: flex;
+  line-height: initial;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 0px 2px 0px 8px;
+  margin-bottom: 3px;
+  justify-content: flex-start;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(0, 0, 0, 0.015), inset 0 2px 8px rgba(0, 0, 0, 0.075), 0 0px rgb(0 9 37 / 37%);
+  background-color: rgb(232 255 254);
+}
+
+.catalog-page-body-punkt a:hover {
+  background-color: rgb(133 216 240);
+}
+
+.catalog-page-subpunkt a {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(0, 0, 0, 0.015), inset 0 2px 8px rgba(0, 0, 0, 0.075), 0 0px rgb(0 9 37 / 37%);
+  background-color: rgb(255 255 255);
+  border-radius: 4px;
+  margin-bottom: 3px;
+  padding: 0px 2px 0px 8px;
+}
+
+.catalog-page-subpunkt a:hover {
+  background-color: rgb(168 175 177 / 25%);
+}
+
+@media (max-width:725px) {
+  .catalog-page-body-punkt {
+    width: calc(33% - 30px);
+  }
+}
+
+/* конец */
