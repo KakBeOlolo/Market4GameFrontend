@@ -12,6 +12,7 @@
   --color-bg-box-subsecondary: rgb(91, 167, 225);
   --box-shadow-externa-subsecondary: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.15), 0 3px 8px rgba(0, 0, 0, 0.1);
   --bg-image-gradient: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 75%);
+  --text-shadows-black: 0.5px 0.5px 1.2px #0000009c;
 }
 
 * {
