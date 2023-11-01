@@ -292,7 +292,9 @@ span.breadcrumb-arrow {
   object-fit: cover;
   width: 100%;
 }
-
+.good-img a {
+  width: 100%;
+}
 .good-img img {
   border-radius: 10px 10px 0px 0px;
   position: relative;
