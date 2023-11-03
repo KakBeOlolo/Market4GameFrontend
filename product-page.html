@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Купить Song of Nunu: A League of Legends Story</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="У нас Вы можете приобрести Song of Nunu: A League of Legends Story по низким ценам с моментальной доставкой! ">
     <link rel="stylesheet" href="./assets/css/style.css"> <!-- Общие стили -->
     <link rel="stylesheet" href="./assets/css/header.css"> <!-- Стили шапки сайта -->
     <link rel="stylesheet" href="./assets/css/footer.css"> <!-- Стили футера -->
@@ -20,6 +22,7 @@
     <script src="assets/js/main.js"></script> <!-- Resource jQuery -->
     <script src="assets/js/slick.min.js"></script> <!-- Слайдер -->
     <script src="assets/js/slick.js"></script> <!-- настройки слайдера -->
+    <script src="assets/js/product-page-list.js"></script> <!-- настройки выпадающего списка с подкатегориями -->
 
 
 </head>
@@ -676,72 +679,595 @@
                         class="breadcrumb-arrow"></span></a>
             </li>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item"
-                    href="./product-section.html" class="current"><span itemprop="name">Song of Nunu: A League of Legends Story</span></a>
+                    href="./product-section.html" class="current"><span itemprop="name">Song of Nunu: A League of
+                        Legends Story</span></a>
                 <meta itemprop="position" content="3" />
             </li>
         </ul>
     </fieldset>
-
-
     <!--- Начало контента   -->
     <section class="wrapper-page">
         <div class="page-content">
-
-
-
-
             <div class="product-page-header">
                 <div class="product-page-img">
                     <img src="https://cdn.akamai.steamstatic.com/steam/apps/1333200/header.jpg?t=1698854542"
                         alt="Song of Nunu: A League of Legends Story">
                 </div>
                 <div class="product-page-header-title">
-                <div class="product-page-title">
-                    <h1>Song of Nunu: A League of Legends Story</h1>
-                </div>
-                <div class="product-page-descr">
-                    <p>
-                        Двое лучших друзей, одно безумное приключение. Присоединяйтесь к Нуну и Виллумпу — закадычным
-                        друзьям, путешествующим по просторам Фрельйорда. В странствии по прекрасным, но коварным землям
-                        мальчик и йети все теснее привязываются друг к другу. Вместе они обретают новых союзников и
-                        противников.
-                    </p>
+                    <div class="product-page-title">
+                        <h1> Купить Song of Nunu: A League of Legends Story</h1>
+                    </div>
+                    <div class="product-page-descr">
+                        <p>
+                            Двое лучших друзей, одно безумное приключение. Присоединяйтесь к Нуну и Виллумпу —
+                            закадычным
+                            друзьям, путешествующим по просторам Фрельйорда. В странствии по прекрасным, но коварным
+                            землям
+                            мальчик и йети все теснее привязываются друг к другу. Вместе они обретают новых союзников и
+                            противников.
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="product-page-body">
+                <div class="product-page-left">
+                    <div class="selectlink">
+                        <div class="selectlink-control">Выберите тип товара</div>
+                        <ul>
+                            <li><a href="./product-page.html">Ключи</a></li>
+                            <li><a href="./product-page.html">Gift</a></li>
+                            <li><a href="./product-page.html">Аккаунты</a></li>
+                        </ul>
+                    </div>
+                    <div class="product-page-sort-checkbox">
+                        <div class="product-page-sort">
+                            <div class="product-page-sort-header">
+                                <span class="product-page-sort-icon"></span><span class="product-page-sort-title">
+                                    <p>Сортировать по:</p>
+                                </span>
+                            </div>
+                            <div class="form-sort-popular">
+
+                                <form>
+                                    <fieldset>
+                                        <select name="form-sort">
+                                            <option value="html" selected="selected">Популярности</option>
+                                            <option value="css">Цене</option>
+                                        </select>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="product-page-checkbox">
+                            <!-- чек боксы -->
+                            <div class="filtr">
+                                <span class="filtr-name">Тип товара:</span>
+                                <div class="filtr-inside-background">
+                                    <div class="filtr-punkt">
+                                        <input id="s1" type="checkbox" class="switch">
+                                        <label for="s1" class="filtr-label">Ключ</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="s2" type="checkbox" class="switch">
+                                        <label for="s2" class="filtr-label">Гифт</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="s3" type="checkbox" class="switch">
+                                        <label for="s3" class="filtr-label">Оффлайн аккаунт</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="s4" type="checkbox" class="switch">
+                                        <label for="s4" class="filtr-label">Читы</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="s5" type="checkbox" class="switch">
+                                        <label for="s5" class="filtr-label">DLC</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filtr">
+                                <span class="filtr-name">Игровая платформа:</span>
+                                <div class="filtr-inside-background">
+                                    <div class="filtr-punkt">
+                                        <input id="b1" type="checkbox" class="switch">
+                                        <label for="b1" class="filtr-label">Epic Game</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="b2" type="checkbox" class="switch">
+                                        <label for="b2" class="filtr-label">Steam</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="b3" type="checkbox" class="switch">
+                                        <label for="b3" class="filtr-label">XBox Game Pass</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="b4" type="checkbox" class="switch">
+                                        <label for="b4" class="filtr-label">Play Station</label>
+                                    </div>
+                                    <div class="filtr-punkt">
+                                        <input id="b5" type="checkbox" class="switch">
+                                        <label for="b5" class="filtr-label">Ubisoft</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-page-right">
+                    <!-- пагинация начало -->
+                    <section class="pagination-product-page">
+                        <div class="pagination-goods-container">
+                            <div class="pagination-goods-container-arrow-prew">
+                                <span class="pagination-goods-container-arrow arrow-prew"
+                                    title="Предыдущая страница"></span>
+                            </div>
+                            <div class="pagination:number  pagination:active" title="перейти к странице">
+                                1
+                            </div>
+                            <div class="pagination:number" title="перейти к странице">
+                                2
+                            </div>
+
+                            <div class="pagination:number" title="перейти к странице">
+                                3
+                            </div>
+
+                            <div class="pagination:number" title="перейти к странице">
+                                4
+                            </div>
+                            <div class="pagination:number" title="перейти к странице">
+                                5
+                            </div>
+                            <div class="pagination:dot" title="Это просто точка">
+                                .
+                            </div>
+                            <div class="pagination:number" title="перейти к странице">
+                                99
+                            </div>
+                            <div class="pagination-goods-container-arrow-next">
+                                <span class="pagination-goods-container-arrow arrow-next"
+                                    title="Следующая страница"></span>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- пагинация конец -->
+                    <!-- начало товаров -->
+                    <section class="goods-list">
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=2795325&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">🎮 ПОКУПКА ИГР
+                                        |
+                                        ПОПОЛНЕНИЕ PLAYSTATION ТУРЦИЯ PSN 🇹🇷</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3304326&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">🎮💻 XBOX GAME
+                                        PASS
+                                        ULTIMATE⚡1/2/4/7/10/12⚡БЫСТРО✔️+EA</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3304325&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">XBOX GAME PASS
+                                        ULTIMATE
+                                        1 МЕСЯЦ (РОССИЯ/ПРОДЛЕНИЕ) +🎁</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3304318&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">Рандомный Steam
+                                        Ключ
+                                        (100 разных игр!)</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3301328&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">🎯Xbox Game
+                                        Pass
+                                        ULTIMATE 1 Месяц + ⭐EA PLAY + GIFT 🎁</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3304326&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">✅🍀XBOX GAME
+                                        PASS
+                                        ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3304324&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">STEAM КЛЮЧИ 💎
+                                        RANDOM
+                                        GLOBAL KEY испытай удачу+подарки</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3304323&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">⭐ПОПОЛНЕНИЕ
+                                        КОШЕЛЬКА
+                                        STEAM UP ⭐ Лучшая цена⭐RUB/UAH/KZT/CIS</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3304320&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">STEAM КЛЮЧИ 💎
+                                        RANDOM
+                                        GLOBAL KEY испытай удачу+подарки</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="good-container-product-page">
+                            <div class="good-img">
+                                <a href="/goods/xbox-game-pass-ultimate-1-2-4-7-10-12-mesyacev-bystro"
+                                    title="Купить Подписка ✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                    <img src="https://graph.digiseller.ru/img.ashx?id_d=3204128&w=400&h=220&crop=true"
+                                        alt="✅🍀XBOX GAME PASS ULTIMATE 1-2-4-7-10-12 МЕСЯЦЕВ БЫСТРО">
+                                </a>
+                            </div>
+                            <div class="good-info">
+                                <div class="good-info-title">
+                                    <a href="/goods/fortnite-v-baksy-1000-2800-5000-epic-xbox-ps-bystro">Xbox Game Pass
+                                        Ultimate
+                                        14 дней (EA + Gold + Game Pass)</a>
+                                </div>
+                                <div class="good-info-about">
+                                    <div class="good-info-about-plarform">
+                                        <span class="good-info-plarform">EpicGames</span>
+                                    </div>
+                                    <div class="good-info-about-type">
+                                        <span class="good-info-type">Аккаунт</span>
+                                    </div>
+                                    <div class="good-info-about-sells">
+                                        <span class="good-info-sells">105000</span>
+                                    </div>
+                                    <div class="good-info-about-reviews">
+                                        <span class="good-info-reviews">105000</span>
+                                    </div>
+                                </div>
+                                <div class="good-info-down">
+                                    <div class="good-info-price">
+                                        100500 <span> &nbsp ₽</span>
+                                    </div>
+                                    <div class="good-info-buy">
+                                        <a href="/goods/xbox-game-pass-ultimate-14-dney-ea-gold-game-pass"
+                                            title="Купить Подписка Xbox Game Pass Ultimate 14 дней (EA + Gold + Game Pass)">Купить</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- товары конец-->
+                    <!-- пагинация начало -->
+                    <section class="pagination-product-page">
+                        <div class="pagination-goods-container">
+                            <div class="pagination-goods-container-arrow-prew">
+                                <span class="pagination-goods-container-arrow arrow-prew"
+                                    title="Предыдущая страница"></span>
+                            </div>
+                            <div class="pagination:number  pagination:active" title="перейти к странице">
+                                1
+                            </div>
+                            <div class="pagination:number" title="перейти к странице">
+                                2
+                            </div>
+
+                            <div class="pagination:number" title="перейти к странице">
+                                3
+                            </div>
+
+                            <div class="pagination:number" title="перейти к странице">
+                                4
+                            </div>
+                            <div class="pagination:number" title="перейти к странице">
+                                5
+                            </div>
+                            <div class="pagination:dot" title="Это просто точка">
+                                .
+                            </div>
+                            <div class="pagination:number" title="перейти к странице">
+                                99
+                            </div>
+                            <div class="pagination-goods-container-arrow-next">
+                                <span class="pagination-goods-container-arrow arrow-next"
+                                    title="Следующая страница"></span>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- пагинация конец -->
+                </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     </section>
 </body>
 <!--- Конец контента   -->
-
 <fieldset class="breadcrumb-footer">
     <ul id="breadcrumbs-four" itemscope itemtype="https://schema.org/BreadcrumbList">
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item"
@@ -759,7 +1285,8 @@
                     class="breadcrumb-arrow"></span></a>
         </li>
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item"
-                href="./product-section.html" class="current"><span itemprop="name">Song of Nunu: A League of Legends Story</span></a>
+                href="./product-section.html" class="current"><span itemprop="name">Song of Nunu: A League of Legends
+                    Story</span></a>
             <meta itemprop="position" content="3" />
         </li>
     </ul>
@@ -768,13 +1295,8 @@
 <footer class="footer">
     <div class="footer-content">
         <div class="footer-about">
-
             <p>Market4game - рыночная площадка с проверенными продавцами цифровых товаров таких как игры, программное
                 обеспечение, услуги, аккаунты, продления подписки и пополнения счета</p>
-
-
-
-
         </div>
         <div class="footer-links">
             <a class="footer-link" href="https://www.digiseller.market/info/purchases.asp" target="_blank">

@@ -3,6 +3,7 @@
   --color-bg-box-secondary: rgb(247 247 247);
   --color-bg-box-secondary-1: rgb(232 255 254);
   --color-box-border: #F6F6F6;
+  --color-text-main: #22284a;
   --box-shadow-externa:
     inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05), 0 5px 12px rgba(0, 0, 0, 0.125);
   --box-shadow-interna:
