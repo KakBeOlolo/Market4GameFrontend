@@ -365,7 +365,9 @@ section.pagination-product-page {
         font-weight: 600;
         font-size: 14px;
     }
-
+    section.pagination-product-page {
+        margin: 12px 0px 2px 0px;
+    }
     .product-page-sort-header {
         margin-bottom: 5px;
     }
