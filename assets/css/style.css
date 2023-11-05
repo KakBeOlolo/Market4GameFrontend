@@ -74,7 +74,7 @@ body,
   font-size: 12px;
   background-color: rgb(250, 250, 250);
   padding: 3px 0px 4px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border-top: 1px solid #FCFCFC;
   border-bottom: 1px solid #D1D1D1;
   zoom: 1;
@@ -385,6 +385,7 @@ span.breadcrumb-arrow {
   color: #fff;
   font-weight: 500;
   font-size: 16px;
+  text-shadow: var(--text-shadows-black);
 }
 
 .good-info-buy:hover {
@@ -1390,6 +1391,7 @@ span.pagination-goods-container-arrow {
   border-top-color: var(--color-box-border-top-subsecondary);
   box-shadow: var(--box-shadow-externa-subsecondary);
   background-image: var(--bg-image-gradient);
+  text-shadow: var(--text-shadows-black)
 }
 
 .pagination\:number.pagination\:active,
@@ -1422,6 +1424,7 @@ span.pagination-goods-container-arrow:hover,
   border-top-color: var(--color-box-border-top-subsecondary);
   box-shadow: var(--box-shadow-externa-subsecondary);
   background-image: var(--bg-image-gradient);
+  text-shadow: var(--text-shadows-black)
 }
 
 .pagination-goods-container-arrow-prew,
@@ -1439,6 +1442,8 @@ span.pagination-goods-container-arrow:hover,
   background-position: center;
   background-size: cover;
   display: block;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, .4));
+    filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .4));
 }
 
 .pagination-goods-container-arrow.arrow-next::before {
@@ -1450,6 +1455,8 @@ span.pagination-goods-container-arrow:hover,
   background-position: center;
   background-size: cover;
   display: block;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, .4));
+    filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .4));
 }
 
 @media (max-width: 580px) {
