@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="./assets/css/header.css"> <!-- Стили шапки сайта -->
 	<link rel="stylesheet" href="./assets/css/footer.css"> <!-- Стили футера -->
 	<link rel="stylesheet" href="./assets/css/slider-index.css"> <!-- Стили слайдера на главной -->
+	<link rel="stylesheet" href="./assets/css/index.css"> <!-- Стили на главной -->
 	<link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon"> <!-- Фавикон -->
 	<link href="./assets/font/Gilroy/stylesheet.css" rel="stylesheet" type="text/css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -47,7 +48,7 @@
 
 				<div class="searchbox">
 					<input type="text" placeholder="Поиск товара..." class="search_input" name="text">
-					<button type="submit" class="searchimage" alt="Начать поиск" title="Начать поиск" ><i
+					<button type="submit" class="searchimage" alt="Начать поиск" title="Начать поиск"><i
 							class="fa fa-search"></i></button>
 				</div>
 				<div class="pokupki">
@@ -785,9 +786,84 @@
 
 				</div>
 			</section>
+			<section class="index-tabs">
+				<div class="index-tabs-body">
+					<span class="index-tabs-main-icon"></span>
+					<!-- Кнопка-переключатель и название первого таба-->
+					<input type="radio" name="index-tabs" id="tab-1-index" checked>
+					<label for="tab-1-index">
+						<p>Популярные товары</p>
+					</label>
+					<!-- Кнопка-переключатель и название первого таба-->
+					<input type="radio" name="index-tabs" id="tab-2-index">
+					<label for="tab-2-index">
+						<p>Новинки</p>
+					</label>
 
-
-
+					<div id="tab-content-1" class="tab-content-index">
+						<p><!-- Тут вы размещаете контент под таб№1 -->
+						<div class="index-page-container">
+							<div class="index-page-body-punkt">
+								<a href="/catalog/" title="Atomic Heart">Atomic Heart</a>
+								<div class="index-page-subpunkt">
+									<a href="/catalog/" title="Atomic Heart">Gift</a>
+									<a href="/catalog/" title="Atomic Heart">Оффлайн аккаунт</a>
+									<a href="/catalog/" title="Atomic Heart">Аккаунт</a>
+								</div>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="./selection-page.html" title="VPN">VPN сервисы</a>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="/catalog/" title="Atomic Heart">Atomic Heart</a>
+								<div class="index-page-subpunkt">
+									<a href="/catalog/" title="Atomic Heart">Gift</a>
+									<a href="/catalog/" title="Atomic Heart">Оффлайн аккаунт</a>
+									<a href="/catalog/" title="Atomic Heart">Аккаунт</a>
+								</div>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="./selection-page.html" title="VPN">VPN сервисы</a>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="./selection-page.html" title="VPN">VPN сервисы</a>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="./selection-page.html" title="VPN">VPN сервисы</a>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="./selection-page.html" title="VPN">VPN сервисы</a>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="/catalog/" title="Atomic Heart">Atomic Heart</a>
+								<div class="index-page-subpunkt">
+									<a href="/catalog/" title="Atomic Heart">Gift</a>
+									<a href="/catalog/" title="Atomic Heart">Оффлайн аккаунт</a>
+									<a href="/catalog/" title="Atomic Heart">Аккаунт</a>
+								</div>
+							</div>
+						</div>
+						</p>
+					</div> <!-- #tab-content-2 конец -->
+					<div id="tab-content-2" class="tab-content-index">
+						<p><!-- Тут вы размещаете контент под таб№2 -->
+						<div class="index-page-container">
+							<div class="index-page-body-punkt">
+								<a href="/catalog/" title="Atomic Heart">Atomic Heart</a>
+								<div class="index-page-subpunkt">
+									<a href="/catalog/" title="Atomic Heart">Gift</a>
+									<a href="/catalog/" title="Atomic Heart">Оффлайн аккаунт</a>
+									<a href="/catalog/" title="Atomic Heart">Аккаунт</a>
+								</div>
+							</div>
+							<div class="index-page-body-punkt">
+								<a href="./selection-page.html" title="VPN">VPN сервисы</a>
+							</div>
+						</div>
+						</p>
+					</div> <!-- #tab-content-2 конец -->
+				</div>
+			</section>
 			<!-- вкладки и последние отзывы -->
 			<section class="tabs-rewiews">
 				<!--  вкладки  -->

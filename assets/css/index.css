@@ -1,0 +1,209 @@
+/* вкладки с цифрами */
+.index-tabs-main-icon {
+    border-radius: 6px;
+    height: 49px;
+    justify-content: center;
+    width: 49px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    color: rgb(239, 248, 253);
+    text-align: center;
+    box-sizing: border-box;
+    background-color: var(--color-bg-box-subsecondary);
+    border: var(--color-box-border-subsecondary);
+    border-top-color: var(--color-box-border-top-subsecondary);
+    box-shadow: var(--box-shadow-externa-subsecondary);
+    background-image: var(--bg-image-gradient);
+}
+
+.index-tabs-main-icon:before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background-image: url(../img/icons-pages/hot-index-page.svg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+section.index-tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+.index-tabs-body {
+    display: flex;
+    width: calc(100% - 10px);
+    max-width: 100%;
+    min-height: auto;
+    float: left;
+    margin-top: 10px;
+    list-style: none;
+    background: var(--color-bg-box);
+    border-radius: 12px;
+    padding: 5px;
+    border: 1px solid #F6F6F6;
+    box-shadow: var(--box-shadow-externa);
+    flex-wrap: wrap;
+  }
+  
+  
+  .index-tabs:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .index-tabs input[type=radio] {
+    display: none;
+  }
+  
+  .index-tabs label p {
+    padding: 5px;
+    margin-right: 0;
+  }
+  
+  
+  .index-tabs label {
+    font-weight: 700;
+    float: left;
+    text-decoration: none;
+    line-height: 2;
+    font-size: 17px;
+    display: flex;
+    color: rgb(239, 248, 253);
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    padding: 2px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: var(--color-bg-box-subsecondary);
+    border: var(--color-box-border-subsecondary);
+    border-top-color: var(--color-box-border-top-subsecondary);
+    box-shadow: var(--box-shadow-externa-subsecondary);
+    background-image: var(--bg-image-gradient);
+    text-shadow: var(--text-shadows-black);
+  }
+  
+  .index-tabs label span {
+    display: none;
+  }
+  
+  
+  
+  .tab-content-index {
+    display: none;
+    min-width: 320px;
+    min-height: auto;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: none;
+    background-position: right center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    box-shadow: var(--box-shadow-interna);
+    background: var(--color-bg-box-secondary);
+    border: 1px solid #0000004d;
+  }
+  
+  .index-tabs [id^="tab"]:checked+label {
+    background-repeat: no-repeat;
+    text-decoration: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(0, 0, 0, 0.015), inset 0 2px 8px rgba(0, 0, 0, 0.075), 0 0px rgb(0 9 37 / 37%);
+    background-color: rgb(232 255 254);
+    border-color: #5ba7e1;
+    border-width: 1px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    color: black;
+    text-shadow: none;
+  }
+  
+  #tab-1-index:checked~#tab-content-1,
+  #tab-2-index:checked~#tab-content-2
+  {
+    display: block;
+  }
+  .index-page-empy {
+    display: flex;
+    width: 100%;
+    height: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .index-tabs p {
+      margin-right: 10px;
+    }
+  
+    .index-tabs {
+      max-width: 100%;
+    }
+  }
+  .index-page-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (max-width:525px) {
+    .index-page-body-punkt {
+      width: calc(50% - 10px) !important;
+    }
+  }
+  
+  .index-page-body-punkt {
+    font-weight: 700;
+    margin: 5px;
+    width: calc(25% - 10px);
+  }
+  
+  .index-page-body-punkt a {
+    height: auto;
+    display: flex;
+    line-height: initial;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 2px 8px 2px 8px;
+    box-shadow: var(--box-shadow-interna);
+    background-color: var(--color-bg-box-secondary-1);
+    flex-wrap: wrap;
+    margin: 2px;
+  }
+  
+  .index-page-subpunkt {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  
+  .index-page-body-punkt a:hover {
+    background-color: rgb(133 216 240);
+  }
+  
+  .index-page-subpunkt a {
+    box-shadow: var(--box-shadow-interna);
+    background-color: rgb(255 255 255);
+    border-radius: 4px;
+    padding: 1px 8px 1px 8px;
+  }
+  
+  .index-page-subpunkt a:hover {
+    background-color: rgb(168 175 177 / 25%);
+  }
+  
+  @media (max-width:725px) {
+    .index-page-body-punkt {
+      width: calc(33% - 10px);
+    }
+  }
+  
+  /* конец вкладок с цифрами */
